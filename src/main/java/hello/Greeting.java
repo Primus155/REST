@@ -20,10 +20,10 @@ public class Greeting {
     
     public static ArrayList<Greeting> fill(){
     	 ArrayList<Greeting> l = new ArrayList <Greeting> ();
-    	Greeting g1 = new Greeting(1,"odo");
-    	Greeting g2 = new Greeting (2,"boing");
-    	Greeting g3 = new Greeting (3,"Dr.Prof. Schenk");
-    	Greeting g4 = new Greeting (4,"Richard Loewenherz");
+    	Greeting g1 = new Greeting(0,"odo");
+    	Greeting g2 = new Greeting (1,"boing");
+    	Greeting g3 = new Greeting (2,"Dr.Prof. Schenk");
+    	Greeting g4 = new Greeting (3,"Richard Loewenherz");
     	l.add(g1);
     	l.add(g2);
     	l.add(g3);
